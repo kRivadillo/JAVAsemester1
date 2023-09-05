@@ -1,0 +1,23 @@
+package krivadillo.pkg1.ict.pkg12.a;
+
+/**
+ *  
+ * @author Rivadillo
+ */
+public class Krivadillo1ICT12A {
+
+ 
+  public static void main(String[] args) {
+      String txt="Hello World";
+      System.out.print(txt .toUpperCase ());
+    System.out.print("Hello my name is ");
+    System.out.print("Kurt Xander Gabriel P. Rivadillo");
+    System.out.println("In the next line i will use math functions");
+    System.out.print("3 + 3=");
+ 
+    System.out.print(3 + 3);
+  }
+}
+    
+    
+
