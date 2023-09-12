@@ -1,0 +1,32 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package java_lab1_ict12a_rivadillo;
+
+/**
+ *
+ * @author DCP_38-31
+ */
+import java.util.Scanner;
+public class Java_Lab1_ICT12A_Rivadillo {
+
+public static void main(String ag[]) {
+ 
+    double area = 0, rad=0;
+    double PI = 3.14;
+    
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Area of Circle");
+    System.out.print("Enter value of Radius ");
+    rad = sc.nextDouble(); // input for rad
+    
+    area = PI * (rad * rad);
+    
+    
+    System.out.println("The area of circle is: " + area);
+    
+    
+    
+ }
+}
