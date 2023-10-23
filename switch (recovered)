@@ -1,0 +1,94 @@
+import java.util.Scanner;
+
+public class Switch {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // System.out.println("1-5 days for weekdays and 6-7 for weekends");
+        System.out.println("Input the grade: ");
+        int grade = scanner.nextInt();
+
+        switch (grade) {
+            case 65:
+            case 66:
+            case 67:
+            case 68:
+            case 69:
+            case 70:
+            case 71:
+            case 72:
+            case 73:
+            case 74:
+                System.out.println("Failed");
+                break;
+            case 75:
+            case 76:
+            case 77:
+            case 78:
+            case 79:
+            case 80:
+            case 81:
+            case 82:
+            case 83:
+            case 84:
+            case 85:
+            case 86:
+            case 87:
+            case 88:
+            case 89:
+                System.out.println("Passed");
+                break;
+            case 90:
+            case 91:
+            case 92:
+            case 93:
+            case 94:
+                System.out.println("Passed with honors");
+            case 95:
+            case 96:
+            case 97:
+                System.out.println("Passed with high honors");
+                break;
+            case 98:
+            case 99:
+            case 100:
+                System.out.println("Passed with highest honors");
+                break;
+            default:
+                System.out.println("Invalid grade");
+            /*case 1:
+             System.out.println("Monday");
+             System.out.println("Weekdays");
+             break;
+             case 2:
+             System.out.println("Tuesday");
+             System.out.println("Weekdays");
+             break;
+             case 3:
+             System.out.println("Wednesday");
+             System.out.println("Weekdays");
+             break;
+             case 4:
+             System.out.println("Thursday");
+             System.out.println("Weekdays");
+             break;
+             case 5:
+             System.out.println("Friday");
+             System.out.println("Weekdays");
+             break;
+             case 6:
+             System.out.println("Saturday");
+             System.out.println("Weekends");
+             break;
+             case 7:
+             System.out.println("Sunday");
+             System.out.println("Weekends");
+             break;
+             default:
+             System.out.println("Invalid");*/
+
+        }
+    }
+
+}
